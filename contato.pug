@@ -1,4 +1,23 @@
 extends index
 
+block content 
+    div.contato-form-container
+        div.contato-form
+            h3 Mande um recado para nós!
+            form
+                div.form-division
+                    div.form-division-input
+                        label(for="") Seu nome
+                        input(type="text", name="")
+                        label(for="") E-mail
+                        input(type="text", name="")
+                    div.form-division-input
+                        label(for="") Sua mensagem
+                        input(type="text", name="" class="message-input")
+                button Enviar
+        div.contato-image
+            img(src="/images/contato-img.png", alt="Girl sending message")
+
+
 block footer 
     include _footer-contato

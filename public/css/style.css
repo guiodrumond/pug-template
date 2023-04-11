@@ -69,6 +69,34 @@ body {
     margin: auto;
 }
 
+.contato-form-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-division {
+    display: flex;
+}
+
+.form-division-input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+.message-input {
+    height: 4.5rem;
+}
+
+.contato-image img {
+    height: 300px;
+}
+
 .footer {
     background-color: lightsalmon;
     width: 100%;
@@ -88,11 +116,38 @@ body {
     justify-content: start;
 }
 
+.contato-container {
+    flex-grow: 1;
+}
+
 .contato-dados {
     padding: 2rem;
     font-size: 1.3rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.contato-dados .phone {
+    margin: 1rem 0;
 }
 
 .contato-dados span {
     margin-left: 1rem;
+}
+
+.contato-social {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.contato-social i {
+    margin: 2rem;
+}
+
+.contato-social i:hover {
+    cursor: pointer;
 }
