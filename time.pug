@@ -1,0 +1,9 @@
+extends index
+
+block content 
+    each member in members
+        div.member-card
+            img(src=`https://randomuser.me/api/portraits/${member.gender}/${member.photo}.jpg`, alt=`${member.name}`)
+            h3= member.name 
+            p.function= member.function
+            p.function-description= member.description

@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0
+}
+
+.header {
+    background-color: #bebebe;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.menu a {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.content {
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .sobre-content {
+    flex-direction: column;
+}
+
+.member-card {
+    width: 250px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0;
+}
+
+.member-card h3 {
+    margin: inherit;
+    padding: 1rem 0;
+}
+
+.function {
+    margin: inherit;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.function-description {
+    margin: inherit;
+    padding: 1rem 0;
+}
+
+.member-card img {
+    width: 128px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.footer {
+    background-color: lightsalmon;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
